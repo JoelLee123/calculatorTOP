@@ -64,14 +64,26 @@ button:active {
     transform: scale(0.95);
 }
 
+button:hover {
+    background-color: #888;
+}
+
 .wide-btn {
     grid-column: span 2; /* Make '0' button wider */
 }
 
 #btnEqual {
-    background-color: orange;
+    background-color: red;
 }
 
-#btnMultiply, #btnAdd {
+#btnEqual:hover {
+    background-color: #ff3333;
+}
+
+#btnMultiply, #btnAdd, #btnDivide, #btnSubtract {
     background-color: #ff9500;
+}
+
+#btnMultiply:hover, #btnAdd:hover, #btnDivide:hover, #btnSubtract:hover {
+    background-color: #ffcc66;
 }
